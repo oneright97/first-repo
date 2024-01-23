@@ -28,7 +28,7 @@ my_dict = {
 
 #실습 1. '빼기' 반환 (4가지 방법)
 # print(my_dict.get('minus')[0])
-# print(list(my_dict.values())[1][0])
+# print(my_dict['minus'][0])
 # print(my_dict.pop('minus')[0])
 # # print(my_dict.setdefault('minus')[0])
 
@@ -37,7 +37,8 @@ my_dict = {
 # for key in my_keys:
 #     print(key)
 
-#실습 3. 'square' : ['제곱', '사각형'] 추가 (4가지 방법)
+#실습 3. 'square' : ['제곱', '사각형'] 추가 (3가지 방법)
+# my_dict['square'] = ['제곱', '사각형']
 # my_dict.setdefault('square', ['제곱', '사각형'])
 # my_dict.update({'square': ['제곱', '사각형']})
 # print(my_dict)
@@ -46,3 +47,5 @@ my_dict = {
 # my_dict.pop('division')
 # del my_dict['division']
 # print(my_dict)
+
+#1.
